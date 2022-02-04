@@ -99,8 +99,8 @@ const DOM = {
 
 const Uteis = {
     formatoValor(valor) {
-        valor = Number(valor) * 100
-        return valor
+        valor = valor * 100
+        return Math.round(valor) 
     },
 
     formatarData(data) {
