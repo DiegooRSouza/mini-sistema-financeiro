@@ -77,7 +77,7 @@ const DOM = {
             <td class="${CSSclasse}">${valor}</td>
             <td class="data">${transacao.data}</td>
             <td>
-                <img onclick="Transacao.remove(${indice})" src="/imgs/minus.svg" alt="remover transação">
+                <img onclick="Transacao.remove(${indice})" src="imgs/minus.svg" alt="remover transação">
             </td>
         `
         return html
